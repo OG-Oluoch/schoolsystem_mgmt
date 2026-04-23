@@ -1,6 +1,6 @@
 import { createBrowserRouter } from 'react-router-dom' 
 import { lazy, Suspense } from 'react' 
-import AppShell from '@/components/layout/AppShell' // Lazy-load each module for code splitting
+import AppShell from '@/components/layouts/AppShell' // Lazy-load each module for code splitting
 
 const Dashboard = lazy(() => import('@/modules/dashboard')) 
 const Students = lazy(() => import('@/modules/students')) 
