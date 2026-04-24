@@ -1,4 +1,4 @@
 import { useAsync } from "@/hooks/useAsync"
-import { teachersService } from "../services/teachersService"
+import { teachersService } from "../services/teacherService"
 
 export const useTeachers = () => useAsync(teachersService.getAll)
