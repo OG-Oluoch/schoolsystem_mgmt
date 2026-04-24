@@ -1,2 +1,2 @@
-import DashboardPage from './components/DashboardPage'
+import DashboardPage from './DashboardPage'
 export default DashboardPage
